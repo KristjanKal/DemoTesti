@@ -1,4 +1,5 @@
-#define LED
+#define LED 5
+#define PAINIKE 6
 
 void setup(){
  pinMode(LED, OUTPUT);
@@ -11,6 +12,6 @@ void loop(){
  if(digitalRead(PAINIKE)==LOW){
    digitalWrite(LED, HIGH);
  }else{
-  digitalWrite(LED, LOW);
-  }
+   digitalWrite(LED, LOW);
+ }
 }
